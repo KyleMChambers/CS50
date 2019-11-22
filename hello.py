@@ -1,3 +1,5 @@
+#this is a file for reference in the future when i forget how the whle lanuage works.
+
 print('hello world')
 i = 21
 print(f"i is {i}")
@@ -19,3 +21,10 @@ s.add(21)
 s.add(13)
 s.add(11)
 s.add(7)
+
+
+def square(x):
+    return x * x
+
+for i in range(122):
+    print("{} squared is {}".format(i, square(i)))
