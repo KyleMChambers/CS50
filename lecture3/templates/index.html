@@ -2,9 +2,19 @@
 <html lang="en" dir="ltr">
     <head>
         <meta charset="utf-8">
-        <title>myfriendkmc</title>
+        <title>Is it your birthday???</title>
+        <style media="screen">
+            body {
+                text-align: center;
+                color: red;
+            }
+        </style>
     </head>
     <body>
-        <<h1>Hello World</h1>
+        <h1>{% if birthday %}</h1>
+            <h1>YES!</h1>
+        {% else %}
+            <h1>NOPE</h1>
+        {% endif %}
     </body>
 </html>
