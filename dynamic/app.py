@@ -7,10 +7,7 @@ app = Flask(__name__)
 def index():
     return 'Hello world'
 
-@app.route("/Kyle")
-def kyle():
-    return "Hello Kyle"
-
-@app.route("/John")
-def john():
-    return "Hello John"
+@app.route("/<string:name>")
+def hello(name):
+    name = name.capitalize()
+    return f"Hello, {name}!"

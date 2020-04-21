@@ -1,4 +1,4 @@
-#this is a file for reference in the future when i forget how the whle lanuage works.
+#this is a file for reference in the future when i forget 
 
 print('hello world')
 i = 21
